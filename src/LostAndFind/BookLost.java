@@ -5,7 +5,8 @@ import java.util.Date;
 
 public class BookLost extends Lost {
     private String kind="Book";
+
     public BookLost(String name, Date date){
-        super(name,date);
+        super(name,date);//调用父类构造方法
     }
 }

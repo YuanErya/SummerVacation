@@ -7,8 +7,7 @@ public class CardLost extends Lost{
     private String stName;//持卡人姓名
 
     public CardLost(String name, Date date,String name2){
-        super(name,date);
+        super(name,date);//调用父类构造方法
         this.stName = name2;
     }
-
 }

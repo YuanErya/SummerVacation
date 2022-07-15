@@ -9,7 +9,6 @@ public class Main {
        Solution s=new Solution();//创建用于调用方法的对象
         DateFormat time=new SimpleDateFormat("yyyy.MM.dd");//设置录入时间的格式
 
-
         //随便创建的测试数据
         Lost []lostArray=new Lost[5];
         lostArray[0]=new CardLost("身份证",time.parse("2022.5.9"),"张三");
